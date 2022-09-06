@@ -37,4 +37,4 @@ const func = (num) => {
 * [HTML Academy](https://htmlacademy.ru/)
 
 ## **English:**
-A2. I study English on my own
+A2. 
