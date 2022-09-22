@@ -171,19 +171,77 @@ text-decoration: none;
 
 /*section */
 .section_frame {
-    position: absolute;
+    display: flex;
+    margin-top: 140px;
     height: 403px;
-    left: 219px;
-    right: 220px;
-    top: 920px;   
-
+    margin-left: 219px;
+    width: 1160px;  
     
+
 }
 
-.section_image {
-    position: absolute;
+.section_image { 
     width: 609px;
     height: 403px;
     left: 0px;
     top: 0px;  
+    
 }
+
+.section_content {
+    width: 490px;
+margin-left: 87px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;  
+    font-size: 48px;
+    color: #333B41;
+    line-height: 120%;
+    padding-bottom: 20px;
+
+}
+
+h3 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: #333B41;
+padding-top: 54px;
+padding-bottom: 34px;
+}
+
+.subtitle{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #333B41;
+padding: 0;
+margin: 0;
+}
+
+.subtitle2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41; 
+    padding: 0;
+    margin: 0; 
+}
+.photo_section {
+    position: absolute;
+width: 293px;
+height: 605px;
+left: 1400px;
+top: 792px;
+}
+
+/* section_animalCard */
