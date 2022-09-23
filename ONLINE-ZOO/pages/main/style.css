@@ -81,7 +81,7 @@ background-size: cover;
 .button-watch:hover{
     color: #000000;   
     background: #FFEE2E;
-    tansition: all .3s linear;  
+    transition: all .3s linear;  
 }
 
 /* header */
@@ -245,3 +245,108 @@ top: 792px;
 }
 
 /* section_animalCard */
+.section_animalCard{
+    width: 1161px;
+    height: 872px;
+    left: calc(50% - 1158px/2 - 1px);
+    padding-top: 180px;  
+    padding-left: 220px;
+}
+.frame_animalCard {
+  display: grid;
+  grid-template-columns: 366px 366px 366px;
+  grid-column-gap: 30px;
+  grid-row-gap: 10px;
+}
+
+.card {
+    width: 366px;
+    height: 426px; 
+    border: 1px solid #FA6F32;
+    border-radius: 5px;
+    
+}
+
+.card_image {
+    background: #a7a29a;
+    position: relative;
+}
+
+.card_image:hover img{
+    opacity: .3;
+    transform: scale(1.1);
+
+}
+
+.card_image img{
+    display: block;
+    transition: opacity .1 linear;
+}
+
+.card_text{
+position: relative;
+text-transform: uppercase; 
+margin-left: 16px;
+margin-top: 6px;
+padding: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+}
+
+.card:hover .card_text
+{top:-200px;
+}
+
+.card_subtitle {
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000; 
+    padding: 0;
+    margin: 0;
+}
+
+.card_icon {
+position: absolute;
+width: 33px;
+height: 37px;
+left:300px;
+top: 10px;
+    
+}
+
+.button_choosePets
+{position: absolute;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2);
+    top: 2455px;
+  
+    background: #FE9013;
+    border-radius: 25px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+border:none;
+}
+
+.button_choosePets:hover{
+    color: #000000;   
+    background: #FFEE2E;
+    transition: all .3s linear;
+}
+
