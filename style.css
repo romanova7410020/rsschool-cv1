@@ -1,0 +1,109 @@
+.title_cv {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title_photo {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 15px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ece9d6;
+}
+
+.about {
+    margin-top: 30px;
+    margin-left: 600px;
+    font-size: 25px;
+    font-weight: bold;
+    align-self: stretch;
+}
+
+.about_text {
+    margin-left: 350px;
+    font-size: 25px;
+}
+
+.contacts {
+    padding-left: 600px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    align-self: stretch;
+}
+
+.phone {
+    margin-left: 350px;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+.flex_box {
+    display: flex;
+    align-items: stretch;
+    margin-top: 50px;
+
+}
+
+.skills {
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 250px;
+
+}
+
+.skill {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.examples {
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 250px;
+}
+
+.example {
+    padding-top: 10px;
+    font-size: 25px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.education {
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 250px;
+}
+
+.edu {
+    padding-top: 10px;
+    font-size: 25px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.link {
+    text-decoration: none;
+    color: #979439;
+
+}
